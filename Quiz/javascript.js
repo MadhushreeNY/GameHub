@@ -20,6 +20,7 @@ var content =
   {question: 'A person who studies clouds is called a/an _', choices: ['Vexillologist', 'Sinologist', 'Oneirologist', 'Nephologist'], correct: 3},
   {question: 'What was the first ever Android version?', choices: ['Apple Pie', 'Cupcake', 'Brownie', 'Danish'], correct: 1},
   {question: 'Where is the busiest airport in the world located?', choices: ['Georgia,USA', 'Beijing,China', 'Dubai,UAE', 'California,USA'], correct: 0},
+  {question: 'What is the dot above the letter \'i\' called?', choices: ['Aglet', 'Tittle', 'Titus', 'Blot'], correct: 1},
 ].sort( () => Math.random() - 0.5);
 
 var x = 0;
