@@ -11,7 +11,7 @@ ready(choices);
 var content =
 [
   {question: 'A farmer has 12 goats. All but 7 died. How many does he have?', choices: [0, 12, 5, 7], correct: 3},
-  {question: 'What is the missing number: 1, 1, 2, 3, 5, 8, 13, _ ?', choices: [20, 22, 21, 18], correct: 2},
+  {question: 'What is the missing number: 1, 2, 3, 5, 8, 13, _ ?', choices: [20, 22, 21, 18], correct: 2},
   {question: 'The yellow pigment present in some plants is _', choices: ['Xanthophyll', 'Bilirubin', 'Chlorophyll', 'Melanin'], correct: 0},
   {question: 'What is the oxidation state of oxygen in superoxide?', choices: [2, -0.5, -1, +0.5], correct: 1},
   {question: 'Which of the words below is spelled incorrectly?', choices: ['Daiquiri', 'Onomatopoeia', 'Fuchsia', 'Miniscule'], correct: 3},
@@ -21,6 +21,14 @@ var content =
   {question: 'What was the first ever Android version?', choices: ['Apple Pie', 'Cupcake', 'Brownie', 'Danish'], correct: 1},
   {question: 'Where is the busiest airport in the world located?', choices: ['Georgia,USA', 'Beijing,China', 'Dubai,UAE', 'California,USA'], correct: 0},
   {question: 'What is the dot above the letter \'i\' called?', choices: ['Aglet', 'Tittle', 'Titus', 'Blot'], correct: 1},
+  {question: 'Who is the god of thunder in Greek mythology?', choices: ['Kronos', 'Thor', 'Zeus', 'Hermes'], correct: 2},
+  {question: 'Which of the following operatic systems is used by men? ', choices: ['Tenor', 'Soprano', 'Mezzo-soprano', 'Contralto'], correct: 0},
+  {question: 'What is the capital of Ajerbaijan?', choices: ['Tehran', 'Baku', 'Nur-Sultan', 'Beirut'], correct: 1},
+  {question: 'Which of the following is not an unicellular organism?', choices: ['Amoeba', 'Paramoecium', 'Sea Urchin', 'Euglena'], correct: 2},
+  {question: 'The densest element of the periodic table is _', choices: ['Iridium', 'Curium', 'Lead', 'Osmium'], correct: 3},
+  {question: 'A comma used after the penultimate item in a list is called a/an _ comma.', choices: ['Cambridge', 'Oxford', 'Harvard', 'Stanford'], correct: 1},
+  {question: 'Which breed of dogs is the heaviest?', choices: ['Great Dane', 'Saint Bernard', 'English Mastiff', 'Newfoundland'], correct: 2},
+
 ].sort( () => Math.random() - 0.5);
 
 var x = 0;
