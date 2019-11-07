@@ -3,7 +3,7 @@
         background-size: cover;
       }
       .logo{
-        height: 60px; 
+        height: 60px;
         width:  60px;
       }
 
@@ -18,14 +18,14 @@
       }
 
       h4{
-        text-align: center; 
+        text-align: center;
         font-style: italic;
-       
+
       }
 
       h6{
             text-align: center;
-            
+
       }
 
       .container{
@@ -65,7 +65,7 @@
       }
 
     .box h4{
-    
+
          margin-top: 10px;
     }
 
@@ -77,7 +77,7 @@
 	  border: 2px solid #000;
 	  box-shadow: 20px 30px 40px rgb(0,0,0);
 	  }
-	  
+
 	  .c .left{
 	  width:50%;
 	  background-color:black;
@@ -96,16 +96,16 @@
 	  #background:url(image.png);
 	  #transform: translate(-50%,50%);
 	  }
-	  
+
     .formbox {
-		
+
       width:100%;
 	  float:right;
 	  height:400px;
 	  #background:#fff;
 	  padding: 50px 40px;
 	  box-sizing: border-box;
-	
+
 	}
 	.formbox p {
 		margin:0;
@@ -117,7 +117,7 @@
 	.formbox input{
 		width:100%;
 		margin-bottom :20px;
-		
+
 	}
 	.formbox  input[type="text"],
 	.formbox  input[type="Password"]
@@ -144,11 +144,10 @@
 		color:white;
 		background:black;
 		cursor:pointer;
-		
+
 	}
 	.formbox  input[type="submit"]:hover,
 	.formbox  input[type="button"]:hover{
 		background:rgb(3,11,70);
 	}
 	.formbox
-     
