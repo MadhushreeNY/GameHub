@@ -24,5 +24,4 @@ Collection of best classic games simply coded in javascript with some tricks for
 - Basic JavaScript and other languages are used to make it simple
 - Good Functionality
 
-### You Can Play these games [Here](http://game-box01-com.stackstaging.com/).
 
