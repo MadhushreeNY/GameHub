@@ -1,5 +1,5 @@
-# Game-Box
-Collection of best classic games simply coded in javascript with some tricks for game development in JS.   
+# GameHub
+Collection of the best classic games simply coded in javascript with some tricks for game development in JS.   
 
 ## Games
 
@@ -9,7 +9,7 @@ Collection of best classic games simply coded in javascript with some tricks for
 
 3. **Steal the Cupcake** : You have catch the cupcake falling from above. You can jump move left and right. This game is beautifully Design with Animations.
 
-4. **Pig Game** : A Two Player Dice Game for Fun.
+4. **Quiz** : A GK quiz.
 
 ## Built With
 
@@ -23,6 +23,4 @@ Collection of best classic games simply coded in javascript with some tricks for
 - Easy to understand Code
 - Basic JavaScript and other languages are used to make it simple
 - Good Functionality
-
-### You Can Play these games [Here](http://game-box01-com.stackstaging.com/).
 
