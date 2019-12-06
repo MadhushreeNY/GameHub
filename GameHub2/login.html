@@ -50,20 +50,63 @@
 				<div class="right">
 					<div class="formbox">
 					<form>
-					<p>USERNAME:</p>
-					<input type="text"  name=" " placeholder="  USERNAME"></br></br>
+					<p>EMAIL:</p>
+					<input type="text" id="email" name=" " placeholder="  EMAIL"></br></br>
 					<p>PASSWORD:</p>
-					<input type="Password" name="" placeholder="  PASSWORD">
+					<input type="Password" id="password" name="" placeholder="  PASSWORD">
 					</br>
 					</br>
         </br>
-					<input type="submit" name="SIGN IN" value="SIGN IN">
+					<input type="button" name="SIGN IN" value="SIGN IN" onclick="signin()">
 					<input type="button" name="SIGN IN" value="REGISTER"  onclick="location.href = 'reg.html';">
 					</form>
 
 					</div>
 				</div>
 			</div>
+      <script>
+        function signin() {
+var email = document.getElementById("email").value
+//var name = document.getElementById("name").value
+var password = document.getElementById("password").value
+
+//  localStorage.setItem(email, [name,password,game1,game2,game3,game4]);
+  // body...
+//document.getElementById("demo").innerHTML = localStorage.getItem(email);
+if(email && password)
+{
+  for (let i = 0; i<localStorage.length-2;i++)
+  {
+
+    const key = localStorage.key(i);
+    const val1 = localStorage.getItem(key);
+    const val = val1.split(",");
+    //alert(val[1],"ssss",password)
+    if(key == email && val[1] == password)
+    {
+      localStorage.setItem("__LOGGEDIN__",1);
+      localStorage.setItem("__INDEX__",i);
+      localStorage.setItem("__USER__",key);
+      alert("Successfully Logged In");
+      window.location.href = "index.html";
+      return false;
+    }
+    }
+     alert("Your username or password doesn't match"); 
+     window.location.reload();
+
+    
+  
+}
+  //localStorage.setItem(email, [name,password,game1,game2,game3,game4]);
+else
+{
+  alert("Sorry these credentials are invalid, You cant leave them blank");
+  window.location.reload();
+}
+
+}
+    </script>
 		</body>
 	 </html>
 

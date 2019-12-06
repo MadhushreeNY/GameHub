@@ -1,16 +1,16 @@
- body{
+body{
         background-image: url(pac3.jpg);
         background-size: cover;
       }
       .logo{
-        height: 60px;
+        height: 60px; 
         width:  60px;
       }
 
       h1{
         margin-top: 30px;
         text-align: center;
-		font-size:20px;
+		color:white;
       }
 
       hr{
@@ -18,14 +18,14 @@
       }
 
       h4{
-        text-align: center;
+        text-align: center; 
         font-style: italic;
-
+       
       }
 
       h6{
             text-align: center;
-
+            
       }
 
       .container{
@@ -65,59 +65,37 @@
       }
 
     .box h4{
-
+    
          margin-top: 10px;
     }
-
  .c{
-	  width:50%;
-	  height:400px;
+	  width:400px;
+	  height:500px;
 	  background-color:orange;
 	  margin: 0 auto;
 	  border: 2px solid #000;
 	  box-shadow: 20px 30px 40px rgb(0,0,0);
 	  }
-
-	  .c .left{
-	  width:50%;
-	  background-color:black;
-	  float: left;
-	  height: 400px;
-	 /*  background:url(image.png);
-	  background-size: contain; */
-	  box-sizing: border-box;
-	  }
-	  .c .right{
-		  width:50%;
-	  float: right;
-	  height:350px;
-	  border-color:black;
-	  border-width:20px;
-	  #background:url(image.png);
-	  #transform: translate(-50%,50%);
-	  }
-
-    .formbox {
-
+	  .formbox {
+		
       width:100%;
 	  float:right;
 	  height:400px;
 	  #background:#fff;
-	  padding: 50px 40px;
+	  padding: 80px 40px;
 	  box-sizing: border-box;
-
+	
 	}
 	.formbox p {
 		margin:0;
 		padding:0;
 		font-weight:bold;
-		color:rgb(3,11,70);
-
+		color: rgb(3,11,70);
 	}
 	.formbox input{
 		width:100%;
 		margin-bottom :20px;
-
+		
 	}
 	.formbox  input[type="text"],
 	.formbox  input[type="Password"]
@@ -134,9 +112,7 @@
 		padding-left:10px;
 		border-bottom:2px solid grey;
 	}
-	.formbox  input[type="submit"],
-	.formbox  input[type="button"]{
-		width:48%;
+	.formbox  input[type="submit"]{
 		border:none;
 		border-radius:20px;
 		outline:none;
@@ -144,10 +120,8 @@
 		color:white;
 		background:black;
 		cursor:pointer;
-
+		
 	}
-	.formbox  input[type="submit"]:hover,
-	.formbox  input[type="button"]:hover{
+	.formbox  input[type="submit"]:hover{
 		background:rgb(3,11,70);
 	}
-	.formbox

@@ -39,7 +39,7 @@ function choices() {
   if (y>10) {
     document.form1.style.visibility = 'hidden';
     document.querySelector('.header').style.visibility = 'hidden';
-    document.querySelector('.score').textContent = 'Score: ' + score;
+    document.querySelector('.score').textContent = 'Score: ' + score+ '/10';
     document.querySelector('.score').style.color='#EEEEEE';
     document.querySelector('.score').style.textShadow='2px 0px grey';
     document.querySelector('.score').style.fontSize='70px';

@@ -71,10 +71,10 @@
     </ul>
      <ul class="navbar-nav ml-auto">
     <li class="nav-item active">
-         <a class="nav-link" href="login.html">Login</a>
+         <a class="nav-link" id="loginbutton" onclick="javascript:triggerMe()" href="login.html" >Login</a>
        </li>
     <li class="nav-item active">
-        <a class="nav-link" href="reg.html">Register</a>
+        <a class="nav-link" id="registerbutton" href="reg.html">Register</a>
       </li>
     </ul>
     </div>
@@ -144,7 +144,24 @@
     <p><i class="far fa-copyright"></i> Developed by Madhushree, Sachin, Utkarsh and Shaurya. </p>
 
   </div>
-
+  <script>
+    //document.getElementById('loginbutton').innerHTML="LOGOUT";
+    if(localStorage.getItem("__LOGGEDIN__")==1)
+  {
+  document.getElementById('loginbutton').innerHTML="LOGOUT";
+  document.getElementById('registerbutton').innerHTML="";
+  }
+  function triggerMe()
+  {
+    if(localStorage.getItem("__LOGGEDIN__")==1)
+  {
+  //document.getElementById('loginbutton').innerHTML="LOGOUT";
+  localStorage.setItem("__LOGGEDIN__",0);
+  window.href.location = "login.html";
+  }
+  return false;
+  }
+  </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

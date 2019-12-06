@@ -23,4 +23,3 @@ Collection of the best classic games simply coded in javascript with some tricks
 - Easy to understand Code
 - Basic JavaScript and other languages are used to make it simple
 - Good Functionality
-

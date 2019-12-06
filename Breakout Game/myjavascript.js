@@ -3,7 +3,7 @@
  ctx.fontStyle = "blue" ;
  ctx.font = "16px comic sans MS";
 
- var tileList , noOfTiles , score =0 , lives , intervalVal , noOfStrTiles , strTileList , start =0 ;
+ var tileList , noOfTiles , score =0 , lives , intervalVal , noOfStrTiles , strTileList , start =0, tscore ;
  var base = {
    
     x : 0,
@@ -211,6 +211,9 @@
   	ctx.fillStyle = "red";
   	ctx.font = "35px  comic sans MS "; 
   	ctx.fillText("You Win ..!", 110 , 150 );
+	tscore=score*lives;
+	document.getElementById("scoresheet").innerHTML="Score: ";
+	document.getElementById("scoresheet").innerHTML+=tscore;
   	ctx.restore();
   	clearInterval(intervalVal);
   	}
@@ -221,6 +224,9 @@
   	ctx.fillStyle = "red";
   	ctx.font = "35px  comic sans MS "; 
   	ctx.fillText("Game Over ..!", 100 , 150 );
+	tscore=score;
+	document.getElementById("scoresheet").innerHTML="Score: ";
+	document.getElementById("scoresheet").innerHTML+=tscore;
   	ctx.restore();
   	clearInterval(intervalVal);
 
